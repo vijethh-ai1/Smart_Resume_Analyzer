@@ -40,9 +40,9 @@ It analyzes resumes, extracts skills & information, recommends improvements, sug
 
 ## 📂 Project Structure
 
-Smart_Resume_Analyzer/
-├── Logo/
-│ ├── SRA_Logo.ico
+Smart_Resume_Analyzer
+- ├── Logo/
+- │ ├── SRA_Logo.ico
 │ └── SRA_Logo.jpg
 ├── Uploaded_Resumes/ # Stores uploaded resumes
 ├── Courses.py # Course & video recommendation data
