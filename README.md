@@ -1,10 +1,10 @@
-#🧑‍💼 Smart Resume Analyzer (SRA)
+🧑‍💼 Smart Resume Analyzer (SRA)
 
 Smart Resume Analyzer (SRA) is an AI-powered resume analysis web application built with Streamlit.
 It analyzes resumes, extracts skills & information, recommends improvements, suggests courses, and even provides bonus career guidance videos 🎥.
 
-✨ Features
 
+✨ Features
 ✅ Upload Resumes (PDF) – Extracts name, email, skills, experience, and number of pages
 ✅ Resume Analysis – Evaluates candidate level (Fresher, Intermediate, Experienced)
 ✅ Skills Extraction & Recommendation – Detects existing skills and suggests additional industry-relevant skills
