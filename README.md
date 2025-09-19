@@ -49,7 +49,7 @@ Smart_Resume_Analyzer/
 ├── app.py # Main Streamlit Application
 ├── requirements.txt # Python dependencies
 └── README.md
----
+
 ## 2️⃣ Install dependencies
 
 Make sure you have Python 3.8+ installed.
@@ -89,7 +89,7 @@ Username: machine_learning_hub
 
 Password: mlhub123
 
-📊 Admin Dashboard Features
+##📊 Admin Dashboard Features
 
 View all user records
 
@@ -101,7 +101,7 @@ Predicted Career Fields
 
 User Experience Levels
 
-🎥 Demo Flow
+##🎥 Demo Flow
 
 Upload a resume (PDF)
 
@@ -117,7 +117,7 @@ Watch Resume + Interview Preparation Videos
 
 Admin can log in to view analytics & download reports
 
-📜 License
+##📜 License
 
 This project is licensed under the MIT License.
 You’re free to use, modify, and distribute it.
