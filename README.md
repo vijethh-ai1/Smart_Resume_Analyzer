@@ -40,3 +40,90 @@ It analyzes resumes, extracts skills & information, recommends improvements, sug
 
 ## 📂 Project Structure
 
+Smart_Resume_Analyzer/
+├── Logo/
+│ ├── SRA_Logo.ico
+│ └── SRA_Logo.jpg
+├── Uploaded_Resumes/ # Stores uploaded resumes
+├── Courses.py # Course & video recommendation data
+├── app.py # Main Streamlit Application
+├── requirements.txt # Python dependencies
+└── README.md
+
+2️⃣ Install dependencies
+
+Make sure you have Python 3.8+ installed.
+
+pip install -r requirements.txt
+
+
+If requirements.txt is missing, install manually:
+
+pip install streamlit nltk spacy pandas pyresparser pdfminer3 pymysql streamlit-tags pafy youtube_dl plotly Pillow
+
+3️⃣ Download NLP Models
+python -m nltk.downloader stopwords
+python -m spacy download en_core_web_sm
+
+4️⃣ Setup Database (MySQL)
+
+Start MySQL and create database & table automatically by running the app.
+Default connection inside code:
+
+connection = pymysql.connect(host='localhost', user='root', password='')
+
+
+➡️ Update credentials if needed.
+
+5️⃣ Run the Application
+streamlit run app.py
+
+6️⃣ Access App
+
+Open browser → http://localhost:8501
+
+🔑 Admin Login
+
+To access the Admin Dashboard:
+
+Username: machine_learning_hub
+
+Password: mlhub123
+
+📊 Admin Dashboard Features
+
+View all user records
+
+Download data as CSV
+
+Pie-chart analytics:
+
+Predicted Career Fields
+
+User Experience Levels
+
+🎥 Demo Flow
+
+Upload a resume (PDF)
+
+View extracted information (Name, Email, Skills, Pages)
+
+Get Candidate Level (Fresher / Intermediate / Experienced)
+
+Receive Recommended Skills & Courses
+
+View Resume Writing Tips & Score
+
+Watch Resume + Interview Preparation Videos
+
+Admin can log in to view analytics & download reports
+
+📜 License
+
+This project is licensed under the MIT License.
+You’re free to use, modify, and distribute it.
+
+👨‍💻 Author
+
+Developed with ❤️ by Vijeth Naik
+
