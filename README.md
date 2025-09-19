@@ -34,9 +34,14 @@ It analyzes resumes, extracts skills & information, recommends improvements, sug
 - **Database**: MySQL (`pymysql`)  
 - **Visualization**: [Plotly](https://plotly.com/python/)  
 - **NLP**: NLTK, spaCy  
-- **Others**: Pafy, youtube-dl, PIL, Base64, Random, Pandas  
+- **Others**: Pafy, youtube-dl, PIL, Base64, Random, Pandas
+  
 
 ---
+## ⚙️ Installation & Setup 
+
+## 1️⃣ Clone the repository 
+- git clone https://github.com/vijethh-ai1/Smart_Resume_Analyzer.git cd Smart_Resume_Analyzer
 
 ## 2️⃣ Install dependencies
 
