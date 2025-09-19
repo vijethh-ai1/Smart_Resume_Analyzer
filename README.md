@@ -49,13 +49,12 @@ Smart_Resume_Analyzer/
 ├── app.py # Main Streamlit Application
 ├── requirements.txt # Python dependencies
 └── README.md
-
-2️⃣ Install dependencies
+---
+## 2️⃣ Install dependencies
 
 Make sure you have Python 3.8+ installed.
 
 pip install -r requirements.txt
-
 
 If requirements.txt is missing, install manually:
 
